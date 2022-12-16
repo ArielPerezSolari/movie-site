@@ -1,0 +1,8 @@
+.list-container{
+    background: linear-gradient(30deg, rgb(0, 0, 0), rgb(11, 14, 43));
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

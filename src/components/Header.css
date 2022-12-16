@@ -1,0 +1,20 @@
+
+#navbar{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) , #2f0a3d);
+    border: 1px solid rgb(41, 33, 33);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    color: white;
+    list-style: none;
+}
+li{
+    color: white;
+}
+a{
+    color: white;
+}

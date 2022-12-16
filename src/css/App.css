@@ -1,0 +1,4 @@
+.body{
+    background: linear-gradient(30deg, rgb(0, 0, 0), rgb(11, 14, 43));
+    box-sizing: content-box;
+}
