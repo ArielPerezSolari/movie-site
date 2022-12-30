@@ -1,7 +1,8 @@
+import '../css/App.css'
 function Footer(){
     return(
-        <footer className="footer">
-            <p className="text-center">Copyright Alkemy Challenge</p>
+        <footer  className="foot">
+            <p className="text-center text-white">Copyright Alkemy Challenge</p>
         </footer>
     );
 };

@@ -1,4 +1,20 @@
+*{
+
+   margin: 0 !important;
+
+}
 .body{
-    background: linear-gradient(30deg, rgb(0, 0, 0), rgb(11, 14, 43));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     box-sizing: content-box;
+    background: linear-gradient(75deg, rgb(0, 0, 0), rgb(33, 40, 104));
+    color: white;
+
+}
+
+.foot{
+    height: 50px;
 }

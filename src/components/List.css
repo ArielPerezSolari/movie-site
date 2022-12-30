@@ -1,8 +1,27 @@
 .list-container{
-    background: linear-gradient(30deg, rgb(0, 0, 0), rgb(11, 14, 43));
-    width: 100vw;
+    background: linear-gradient(75deg, rgb(0, 0, 0), rgb(33, 40, 104));
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.card{
+    color: black;
+    margin: 10px;
+}
+.favourite-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: indianred;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding-right: 8px;
+    margin: 2px;
 }

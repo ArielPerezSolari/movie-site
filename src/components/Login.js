@@ -10,7 +10,7 @@ function Login() {
     
     const navigate = useNavigate()
     useEffect(() => {
-        const alreadyLogged = localStorage.getItem('token')
+        const alreadyLogged = sessionStorage.getItem('token')
         if(alreadyLogged !== null) {
             navigate("/list")
         }
@@ -25,7 +25,7 @@ function Login() {
         const regexEmail = 
         /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/;
 
-        console.log(regexEmail.test(email))
+      
         if(email === '' || password === '') {
             swal(
                 <div>
@@ -61,12 +61,12 @@ function Login() {
             .then( res => {
                 console.log(res.data);
                 const tokenRecived = res.data.token
-                localStorage.setItem('token', tokenRecived)
+                sessionStorage.setItem('token', tokenRecived)
                 navigate("/list")
                 
             })         
     }
-    let token = localStorage.getItem('token')
+    let token = sessionStorage.getItem('token')
     return(
         <>
         { token && <Navigate to={"/list"} />}

@@ -1,5 +1,8 @@
-
+.header{
+    width: 100%;
+}
 #navbar{
+    width: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) , #2f0a3d);
     border: 1px solid rgb(41, 33, 33);
     border-bottom-left-radius: 10px;
